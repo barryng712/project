@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://kit.fontawesome.com/71f4ab0dbb.js" crossorigin="anonymous"></script>
+    <title>New Sheet</title>
+  </head>
+  <body>
+        <main>
+          <aside>
+            <nav>
+              <ul>
+                <li><a href="main.html"><abbr title="Home"><i class="fas fa-home"></i></abbr></a></li>
+                <li><a href="profile.html"><abbr title="Profile"><i class="fas fa-user-circle"></i></abbr></a></li>
+                <li><a href="sheets.html"><abbr title="Add New Sheet"><i class="fas fa-plus"></i></abbr></a></li>
+                <li><a href="history.html"><abbr title="History"><i class="fas fa-history"></i></abbr></a></li>
+                <li><a href=""><abbr title="Log out"><i class="fas fa-sign-out-alt"></i></abbr></a></li>
+              </ul>
+            </nav>
+        </aside>
+        <section id="sheet">
+            <h2>Sign up sheet</h2>
+                <form id ="sheet" action="" method="POST">
+                    <div>
+                        <label for="title">Title</label>
+                        <input type="text" name="title" id="title">
+                    </div>
+
+                    <div>
+                        <label for="desc">Description</label>
+                        <textarea name="desc" id="desc"></textarea>
+                    </div>
+
+                    <div>
+                        <label for="slots">Number wanted:</label>
+                        <input type="number" name="number" id="slots"> 
+                    </div>
+
+                    <div>
+                        <label for="date">Date/Time</label>
+                        <input type="number" name="day" id="date">
+                        <select name="month" id="date">
+                            <option value="0">MM</option>
+                            <option value="january">January</option>
+                            <option value="feburary">Feburary</option>
+                            <option value="march">March</option>
+                            <option value="april">April</option>
+                            <option value="may">May</option>
+                            <option value="june">June</option>
+                            <option value="july">July</option>
+                            <option value="august">August</option>
+                            <option value="september">September</option>
+                            <option value="october">October</option>
+                            <option value="november">November</option>
+                            <option value="december">December</option>
+                        </select>
+                        <select name="year" id="date">
+                            <option value="0">YY</option>
+                            <option value="2021">2021</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="location">Location</label>
+                        <input type="text" name="location" id="location">
+                    </div>
+                    <div>
+                        <label for="times">Time slot available</label>
+                    </div>
+
+                    <div>
+                        <button type="submit" name="create" id="submit">Create</button>
+                        
+                    </div>
+                </form>
+            </section>
+        </main>
+  </body>
+  </html>

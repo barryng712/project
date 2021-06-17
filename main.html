@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://kit.fontawesome.com/71f4ab0dbb.js" crossorigin="anonymous"></script>
+    <title>Main Page</title>
+  </head>
+  <body>
+    <header>
+
+    </header>
+
+    <main>
+      <aside>
+          <nav>
+            <ul>
+              <li><a href="main.html"><abbr title="Home"><i class="fas fa-home"></i></abbr></a></li>
+              <li><a href="profile.html"><abbr title="Profile"><i class="fas fa-user-circle"></i></abbr></a></li>
+              <li><a href="sheets.html"><abbr title="Add New Sheet"><i class="fas fa-plus"></i></abbr></a></li>
+              <li><a href="history.html"><abbr title="History"><i class="fas fa-history"></i></abbr></a></li>
+              <li><a href=""><abbr title="Log out"><i class="fas fa-sign-out-alt"></i></abbr></a></li>
+            </ul>
+          </nav>
+      </aside>
+    <section id="overall">
+      <div class="searchbox">
+        <span class="search"><i class="fas fa-search"></i></span>
+        <input type="text" name="search" id="search">
+        <label for="go"><button type="submit" name="search" id="search" >Search</button></label>
+      </div>          
+      <table>
+        <caption>My sheets</caption>
+        <thead>
+          <tr>
+            <th>Sheet</th>
+            <th>Slots</th>
+            <th>Available</th>
+            <th><i class="fas fa-edit"></i></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>sheet number 1</td>
+            <td>20</td>
+            <td>5</td>
+            <td>
+              <a href="view.html"><abbr title="View"><i class="fas fa-eye"></i></abbr></a>
+              <a href=""><abbr title="Edit"><i class="fas fa-edit"></i></abbr></a>
+              <a href=""><abbr title="Clone"><i class="far fa-copy"></i></abbr></a>
+              <a href=""><abbr title="Delete"><i class="far fa-trash-alt"></i></abbr></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        <a href="sheets.html">+ Add a new sheet</a>
+      </div>
+    </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+  </body>
+</html>
